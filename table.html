@@ -2,10 +2,25 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Table</title>
+    <style media="screen">
+      table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 50%;
+      }
+      th, td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+      }
+      th {
+        background-color: lightgray;
+      }
+    </style>
   </head>
   <body>
-    <h1>Tables</h1>
+    <h1>Presidents</h1>
     <table>
       <tr>
         <th>First Name</th>
@@ -23,5 +38,12 @@
         <td>2030-2060</td>
       </tr>
     </table>
+    <form class="" action="index.html" method="post">
+      <label for="">Username</label>
+      <input type="text" name="name" value="">
+      <label for="">Password</label>
+      <input type="password" name="password" value="">
+      <button type="button" name="button">Login</button>
+    </form>
   </body>
 </html>
